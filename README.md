@@ -7,11 +7,11 @@ What You Need
 -------------
 
 You need a computer capable of running Linux.  It can be a desktop or notebook PC, or any
-of the various single-board computers that are popular nowadays such as the [Raspberry Pi][PI].  
+of the various single-board computers that are popular nowadays such as the Raspberry Pi.  
 
-Your version of Linux must be compatible with the new [Bluetooth 4.0 Low Energy (LE)][BLE] standard.
+Your version of Linux must be compatible with the new Bluetooth 4.0 Low Energy (LE) (BLE) standard.
 Currently this requires version 3.5 or greater of the Linux kernel.  You will
-also need version 5.0 or greater of [BlueZ][BLUEZ], the Linux Bluetooth stack and associated
+also need version 5.0 or greater of BlueZ, the Linux Bluetooth stack and associated
 tools.
 
 On most Linux distributions, BlueZ can be easily installed from your distribution's package
