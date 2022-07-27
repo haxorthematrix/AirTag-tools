@@ -19,7 +19,7 @@ while [[ $# -gt 0 ]]; do
       ;;
     -*|--*)
       echo "Unknown option $1"
-      echo "A requrired option for a registered (-r --registered) or unregisterd (-u --unregisteterd) beacon was not found."
+      echo "A required option for a registered (-r --registered) or unregistered (-u --unregistetered) beacon was not found."
       exit 1
       ;;
     *)
