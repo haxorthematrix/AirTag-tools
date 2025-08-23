@@ -35,6 +35,7 @@ if [[ $1 == "parse" ]]; then
   done
 else
   sudo hcitool lescan --duplicates 1>/dev/null &
+  sleep 1
   if [ "$(pidof hcitool)" ]; then
     sudo hcidump --raw | ./$0 parse $1
   fi
